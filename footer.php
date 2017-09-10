@@ -7,8 +7,8 @@
             <div class="clearfix">
                 <div class="fl footer-left clearfix">
                     <h2 class="fl footer-blog-name"><?php echo bloginfo('name'); ?></h2>
-                    <div class="fl introduce"><?php echo get_option('xm_options')['footer_text']; ?></div>
                 </div>
+				<div class="fl introduce"><?php echo get_option('xm_options')['footer_text']; ?></div>
                 <div class="fr footer-right">
                     <a href="http//cn.wordpress.org/">
                         <img src="<?php bloginfo('template_url'); ?>/images/wordpress-logo.png" width="50" alt="" />
@@ -35,7 +35,7 @@
             </div>
             <div class="copyright-wrap clearfix">
                 <div class="fl copyright"><?php echo get_option('xm_options')['footer_copyright']; ?></div>
-                <p class="fr">Theme by <a href="https://www.xuanmo.xin">Xuanmo</a></p>
+                <p class="fr">Theme by Efans</a></p>
             </div>
         </div>
     </footer>

@@ -655,7 +655,7 @@ footer a {
 }
 
 footer .footer-left {
-    width: 60%;
+    width: 10%;
 }
 
 footer .footer-left h2 {
@@ -665,14 +665,15 @@ footer .footer-left h2 {
     line-height: 80px;
 }
 
-footer .footer-left .introduce {
-    width: 70%;
+footer .introduce {
+    width: 68%;
     min-height: 80px;
     line-height: 26px;
+	text-align: center
 }
 
 footer .footer-right {
-    width: 38%;
+    width: 22%;
     height: 80px;
     text-align: right;
 }
